@@ -289,3 +289,11 @@ input[type="checkbox"]:checked + .checkbox-label::after {
         overflow: hidden;
     }
 }
+@media (min-height: 880px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+}
